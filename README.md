@@ -18,5 +18,5 @@ I'm a sophomore at the University of New Haven, pursuing a Bachelor's degree in 
 
 ## 🌟 Projects on GitHub  
 
-- **Secure Password Generator**: Generate, encrypt, and manage passwords securely.  
+- **Secure Password Generator**: Generate, encrypt, and decrypt passwords.  
 
