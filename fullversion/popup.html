@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureGen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Logo & Header -->
+    <div id="header-container">
+      <h1>SecureGen</h1>
+      <p class="subtitle">Generate & Check Passwords Securely</p>
+    </div>
+
+    <!-- Toggle Mode -->
+    <button id="toggle-mode">🌙 Toggle Dark Mode</button>
+
+    <!-- Navigation Buttons -->
+    <div id="nav">
+      <button id="show-generator">
+        <img src="icon_generate.svg" class="nav-icon"> Password Generator
+      </button>
+      <button id="show-checker">
+        <img src="icon_check.svg" class="nav-icon"> Password Checker
+      </button>
+    </div>
+
+    <!-- Content Section (Dynamically Updated) -->
+    <div id="content">
+      <p>Select an option above to get started.</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
